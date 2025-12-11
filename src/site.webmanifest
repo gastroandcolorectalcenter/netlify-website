@@ -1,0 +1,21 @@
+{
+  "name": "Dr. Surendra Shah",
+  "short_name": "Dr. Shah",
+  "description": "Leading gastrointestinal and laparoscopic surgeon and laser proctologist in Kathmandu, Nepal.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

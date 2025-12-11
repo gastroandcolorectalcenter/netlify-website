@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibility-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Content Security Policy (custom for Netlify + Google Script + Formspree) -->
+  <meta http-equiv="Content-Security-Policy"
+    content="
+        default-src 'self' https://*.netlify.app;
+        script-src 'self' 'unsafe-inline' 'unsafe-eval'
+            https://www.googletagmanager.com
+            https://www.google.com
+            https://www.gstatic.com
+            https://www.recaptcha.net
+            https://script.google.com
+            https://*.googleusercontent.com;
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data:
+            https://www.google.com
+            https://www.gstatic.com
+            https://www.googletagmanager.com
+            https://*.netlify.app;
+        font-src 'self';
+        connect-src 'self'
+            https://formspree.io
+            https://www.google-analytics.com
+            https://www.googletagmanager.com
+            https://script.google.com
+            https://*.googleusercontent.com
+            https://wa.me;
+        frame-src
+            https://www.google.com
+            https://www.recaptcha.net;
+        form-action 'self' https://formspree.io https://script.google.com;
+        object-src 'none';
+        base-uri 'self';
+        upgrade-insecure-requests;
+    ">
+
+  <!--Title & Description-->
+  <title>{{ title }} | Dr. Surendra Shah - GI & HPB Surgeon Nepal</title>
+  <meta name="description" content="{{ description or 'Nepal\'s leading Gastrointestinal-HPB & Laparoscopic Surgeon and Laser Proctologist. Book consultation for gallbladder stone, all types of hernia, laser treatment for hemorrhoids, fissure, fistula, pilonidal sinus, varicose vein and many more diseases treatment. Expert surgical care in Kathmandu & Lalitpur.' }}">
+  <meta name="author" content="Dr. Surendra Shah">
+  <meta name="keywords" content="best gastrointestinal surgeon nepal, colorectal surgeon kathmandu, hepatobiliary surgeon lalitpur, pancreatic surgeon nepal, laser proctology specialist kathmandu, advanced laparoscopic surgeon kathmandu, digestive system surgeon, hemorrhoid treatment nepal, gallbladder surgery lalitpur, pancreatic surgery specialist, GI surgeon nepal, colorectal cancer treatment, minimally invasive surgery kathmandu, liver surgeon nepal, bile duct specialist, hemorrhoids laser treatment, hernia repair surgeon, appendectomy kathmandu, bowel surgery nepal, best GI surgeon kathmandu, laser therapy kathmandu nepal, piles, fissure, fistula, anal fistulas, anal fistula, pilonidal sinus, gallbladder stone, hernia, kathmandu, nepal">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"> <!--Robots & Sitemap-->
+
+  <!--Canonical & Language -->
+  <link rel="canonical" href="https://www.drsurendrashah.com.np{{ page.url }}">
+  
+  <!-- Favicon & Manifest -->
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Preload critical assets & fonts here if needed -->
+  <link rel="preload" href="fonts/open-sans-v44-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/open-sans-v44-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/open-sans-v44-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/montserrat-v30-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/playfair-display-sc-v17-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <!--Preload hero image-->
+  <link rel="preload" href="img/about-me-400.webp" as="image" imagesrcset="img/about-me-400.webp 400w" imagesizes="(max-width: 400px) 100vw, 380px">
+  <!--Critical styles-->
+  <style>
+      body{margin: 0; padding: 0; font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+      /* Navbar*/
+      .navbar{background:linear-gradient(135deg,#667eea 0,#764ba2 100%);box-shadow:0 2px 10px rgba(0,0,0,.1);position:sticky;top:0;z-index:1000;backdrop-filter:blur(10px)}
+      .nav-container{max-width:1200px;margin:0 auto;padding:0 1rem;display:flex;justify-content:space-between;align-items:center; min-height:70px}.nav-left{display:flex;align-items: center; gap:1rem}.logo{font-size:1.5rem;font-weight:700;color:whitesmoke;text-decoration:none;letter-spacing:-.5px;font-family: "Playfair Display", Georgia, "Times New Roman", serif;}
+      .call-button{display:flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.2);color:whitesmoke;padding:.6rem 1rem;border-radius:25px;text-decoration:none;font-size:.9rem;font-weight: 400; transition:.3s;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1)}.call-icon{width:20px;height:20px;fill:currentColor}.nav-menu{display:flex;list-style:none;gap:0}.nav-item{position:relative;}
+      .nav-link{color:whitesmoke;text-decoration:none;padding:.8rem 1rem;display:block;font-size: .95rem; font-weight: 400; transition:.3s;border-radius:8px;position:relative;overflow:hidden}
+      .nav-apt{background:rgba(255,255,255,.2);border-radius:25px;margin-left:5px;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1)}.menu-toggle{display:none;background:0 0;border:none;color:whitesmoke;font-size:1rem;cursor:pointer;padding:.5rem;border-radius:4px;transition:background-color .2s}
+      .hamburger{display:block;width:25px;height:3px;background:whitesmoke;margin:5px 0;transition:.3s;border-radius:2px}
+      @media (max-width:480px){.nav-container{padding:0 .5rem;min-height:65px}.nav-left{gap:.5rem}.call-button{padding:.4rem .6rem;font-size:.8rem}.call-icon{width:16px;height:16px}}
+      /* hero section */
+      .hero-section{box-shadow: var(--box-shadow);border-bottom: .5px solid rgba(0,0,0,.1); padding-bottom: 6rem; background: #ECF2FC;animation:.8s ease-out fadeInUp}
+      @media (max-width: 748px) {.hero-image{order: -1;}}
+      /* Hero container */
+      .container-2columns{width: 100%; max-width:1200px;margin:0 auto;padding:3rem 1rem;display:flex;justify-content:center; position:relative;gap: 3rem; overflow:hidden}.container-left{flex:60%;text-align: center;}.container-left p{text-align: justify;} .container-right{flex: 40%;}.container-right img{width:100%;height:auto;display: block;aspect-ratio: 1 / 1; border-radius:8px;box-shadow:var(--box-shadow)}
+      @media (max-width:748px){.container-2columns{flex-direction:column;align-items:flex-start;gap: 0; padding:0} .container-left{padding:2rem 1rem}.container-right img{border-radius:0;box-shadow:none}}
+      /*skip link*/
+      .skip-link{position:absolute;top:-40px;left:6px;background:#667eea;color:#fff;padding:8px;text-decoration:none;border-radius:4px;z-index:1001}
+      .skip-link:focus{top:6px}
+  </style>
+  
+  <!-- Main stylesheet -->
+  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="{{ title }} | Dr. Surendra Shah - GI & HPB Surgeon Nepal">
+  <meta property="og:description" content="{{ description or 'Nepal\'s leading Gastrointestinal-HPB & Laparoscopic Surgeon and Laser Proctologist. Expert surgical care in Kathmandu & Lalitpur.' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.drsurendrashah.com.np{{ page.url }}">
+  <meta property="og:image" content="https://www.drsurendrashah.com.np{{ image or '/img/about_me.webp' }}">
+  <meta property="og:image:alt" content="Dr. Surendra Shah - Gastrointestinal & HPB Surgeon in Kathmandu">
+  <meta property="og:image:width" content="380">
+  <meta property="og:image:height" content="380">
+  <meta property="og:site_name" content="Dr. Surendra Shah - Gastrointestinal & HPB Surgeon Nepal">
+  <meta property="og:locale" content="en_NP">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.drsurendrashah.com.np{{ page.url }}">
+  <meta property="twitter:title" content="{{ title }} | Dr. Surendra Shah - GI & HPB Surgeon Nepal">
+  <meta property="twitter:description" content="{{ description or 'Nepal\'s leading Gastrointestinal-HPB & Laparoscopic Surgeon and Laser Proctologist. Expert surgical care in Kathmandu & Lalitpur.' }}">
+  <meta property="twitter:image" content="https://www.drsurendrashah.com.np{{ image or '/img/about_me.webp' }}">
+  
+  <!--JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.drsurendrashah.com.np#person",
+        "name": "Dr. Surendra Shah",
+        "url": "https://www.drsurendrashah.com.np",
+        "image": "https://www.drsurendrashah.com.np/img/about-me-400.webp",
+        "jobTitle": "Senior Consultant Gastrointestinal, Hepato-Pancreatic-Biliary, Laparoscopic & Colorectal Surgeon and Laser Proctologist",
+        "description": "Leading Gastrointestinal, HPB, Laparoscopic & Colorectal Surgeon and Trained Laser Proctologist in Nepal.",
+        "award": "First in Nepal to perform total laparoscopic gastric cancer surgery and research & publish on laser treatment in anal fistula.",
+        "medicalSpecialty": ["Gastrointestinal Surgery","HPB Surgery","Colorectal Surgery","Laparoscopic Surgery","Laser Proctology","Hernia Surgery"],
+        "worksFor": [
+          {"@type": "Hospital","name": "Sumeru Hospital","address": {"@type": "PostalAddress","addressLocality": "Lalitpur","addressCountry": "NP"},"openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"],"opens": "16:00","closes": "17:00"}],"url": "https://sumeruhospital.org.np/"},
+          {"@type": "Hospital","name": "Vayodha Hospital","address": {"@type": "PostalAddress","addressLocality": "Kathmandu","addressCountry": "NP"},"openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Sunday","Tuesday","Thursday"],"opens": "17:30","closes": "18:30"}],"url": "https://vayodhahospitals.com/"},
+          {"@type": "Hospital","name": "Norvic International Hospital","address": {"@type": "PostalAddress","addressLocality": "Kathmandu","addressCountry": "NP"},"openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Wednesday","Friday"],"opens": "17:30","closes": "18:30"}],"url": "https://norvichospital.com/"},
+          {"@type": "MedicalOrganization","name": "Patan Hospital","address": {"@type": "PostalAddress","addressLocality": "Lalitpur","addressCountry": "NP"},"url": "https://pahs.edu.np/"},
+          {"@type": "EducationalOrganization","name": "Patan Academy of Health Sciences","address": {"@type": "PostalAddress","addressLocality": "Lalitpur","addressCountry": "NP"},"url": "https://pahs.edu.np/"}
+        ],
+        "contactPoint": {"@type": "ContactPoint","telephone": "+9779828070226","email": "gisurgerygroup@gmail.com","contactType": "Appointment","areaServed": "NP","availableLanguage": ["English","Nepali"]},
+        "sameAs": ["https://www.facebook.com/docsurendrashah","https://www.linkedin.com/in/drsurendrashah/","https://twitter.com/drsurendrashah","https://www.instagram.com/dr_surendrashah/","https://www.tiktok.com/@dr.surendrashah","https://share.google/j1fzEHU6BFhMWKvyN"]
+      },
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://www.drsurendrashah.com.np#organization",
+        "name": "Dr. Surendra Shah - Gastrointestinal & Laparoscopic Surgeon",
+        "url": "https://www.drsurendrashah.com.np",
+        "logo": "https://www.drsurendrashah.com.np/img/logo.png",
+        "image": "https://www.drsurendrashah.com.np/img/about-me-400.webp",
+        "address": {"@type": "PostalAddress","streetAddress": "Balkhu","addressLocality": "Kathmandu","addressRegion": "Bagmati","addressCountry": "NP"},
+        "telephone": "+9779828070226",
+        "priceRange": "$$",
+        "medicalSpecialty": ["Gastrointestinal Surgery","HPB Surgery","Colorectal Surgery","Laparoscopic Surgery","Laser Proctology","Hernia Surgery"]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.drsurendrashah.com.np#faq",
+        "mainEntity": [
+          {"@type": "Question","name": "What conditions does Dr. Surendra Shah treat?","acceptedAnswer": {"@type": "Answer","text": "Dr. Shah specializes in gastrointestinal, hepatobiliary, colorectal, pancreatic, hernia, laparoscopic, and laser proctology surgeries."}},
+          {"@type": "Question","name": "Where can I book an appointment with Dr. Shah?","acceptedAnswer": {"@type": "Answer","text": "You can book appointments online through this website or message via WhatsApp at +977-9828070226."}},
+          {"@type": "Question","name": "What is laser proctology?","acceptedAnswer": {"@type": "Answer","text": "Laser proctology is a minimally invasive treatment for piles, fissures, fistulas, and pilonidal sinus that ensures faster recovery and less pain compared to traditional surgery."}}
+        ]
+      }
+    ]
+  }
+  </script>
+  
+  <!-- main js -->
+  <script src="/js/main.js" defer></script>
+  
+  <!-- Deferred Google Analytics -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    
+    let analyticsLoaded = false;
+    function loadGoogleAnalytics() {
+      if (analyticsLoaded) return;
+      analyticsLoaded = true;
+      
+      const gaScript = document.createElement('script');
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-T2N4Z17DHS';
+      gaScript.async = true;
+      document.head.appendChild(gaScript);
+      
+      gtag('js', new Date());
+      gtag('config', 'G-T2N4Z17DHS', {
+        anonymize_ip: true,
+        transport_type: 'beacon'
+      });
+    }
+    
+    ['scroll', 'click', 'touchstart'].forEach(evt =>
+      window.addEventListener(evt, loadGoogleAnalytics, { once: true })
+    );
+    
+    setTimeout(loadGoogleAnalytics, 10000);
+  </script>
+</head>
+<body>
+
+  <!-- Header (navigation bar) Here-->
+  {% include "header.njk" %}
+  
+  <!-- Main Content of the Page Here -->
+  <main id="main-content" tabindex="-1" role="main" aria-label="main-content">
+    {{ content | safe }}
+  </main>
+  
+  <!-- Footer here -->
+  {% include "footer.njk" %}
+
+</body>
+</html>
