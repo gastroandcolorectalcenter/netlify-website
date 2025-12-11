@@ -1,0 +1,16 @@
+{
+  "name": "your-website",
+  "version": "1.0.0",
+  "description": "Static website with Eleventy blog",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": ["eleventy", "blog", "static-site"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
