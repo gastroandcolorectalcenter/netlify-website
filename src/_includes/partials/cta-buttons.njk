@@ -1,0 +1,18 @@
+{# CTA Buttons Component - Used throughout the site #}
+
+<div class="cta-buttons">
+  {# Book Appointment Button #}
+  <a href="/appointment/" class="btn btn-primary">
+    {% include "svg/calendar.njk" %}
+    <span>Book Appointment</span>
+  </a>
+  
+  {# WhatsApp Message Button #}
+  <a href="https://wa.me/{{ social.whatsapp.number }}?text={{ social.whatsapp.message | urlencode }}" 
+     class="btn btn-whatsapp"
+     target="_blank"
+     rel="noopener noreferrer">
+    {% include "svg/whatsapp.njk" %}
+    <span>WhatsApp Message</span>
+  </a>
+</div>

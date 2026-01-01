@@ -1,0 +1,26 @@
+{# 
+  FAQ Item Component (Accordion)
+  
+  Expected variables:
+  - faq (FAQ object with question and answer)
+  - index (optional - for unique IDs)
+#}
+
+<div class="faq-item" data-faq-id="{{ faq.id or index }}">
+  <button class="faq-question" 
+          aria-expanded="false"
+          aria-controls="faq-answer-{{ faq.id or index }}">
+    <span class="faq-question-text">{{ faq.question }}</span>
+    <span class="faq-icon" aria-hidden="true">
+      {% include "svg/chevron-down.njk" %}
+    </span>
+  </button>
+  
+  <div class="faq-answer" 
+       id="faq-answer-{{ faq.id or index }}"
+       hidden>
+    <div class="faq-answer-content">
+      {{ faq.answer | safe }}
+    </div>
+  </div>
+</div>

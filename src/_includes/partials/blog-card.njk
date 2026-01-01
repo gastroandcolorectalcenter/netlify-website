@@ -1,0 +1,69 @@
+{# 
+  Blog Card Component - Horizontal Layout
+  
+  Expected variables:
+  - post (blog post object from collection)
+  - featured (optional boolean to show featured badge)
+#}
+
+<article class="blog-card">
+  {# Featured Image with WebP fallback #}
+  {% if post.data.featuredImage %}
+  <a href="{{ post.url }}" class="blog-card-image-link" tabindex="-1" aria-hidden="true">
+    <picture>
+      <source srcset="{{ post.data.featuredImage | replace('.jpg', '.webp') | replace('.jpeg', '.webp') | replace('.png', '.webp') }}" type="image/webp">
+      <source srcset="{{ post.data.featuredImage }}" type="image/jpeg">
+      <img src="{{ post.data.featuredImage }}" 
+           alt="{{ post.data.featuredImageAlt or post.data.title }}" 
+           class="blog-card-image"
+           loading="lazy"
+           width="800"
+           height="450">
+    </picture>
+  </a>
+  {% endif %}
+  
+  <div class="blog-card-content">
+    {# Featured Badge (optional) #}
+    {% if featured or post.data.featured %}
+    <span class="highlighted-badge">Featured</span>
+    {% endif %}
+    
+    {# Meta Information #}
+    <div class="blog-card-meta">
+      {# Category #}
+      {% if post.data.category %}
+      <span class="blog-card-category">
+        {% if post.data.category is iterable and post.data.category is not string %}
+          {{ post.data.category[0] }}
+        {% else %}
+          {{ post.data.category }}
+        {% endif %}
+      </span>
+      {% endif %}
+      
+      {# Date #}
+      <time datetime="{{ post.date | htmlDateString }}" class="blog-card-date">
+        {{ post.date | readableDate }}
+      </time>
+    </div>
+    
+    {# Title #}
+    <h3 class="blog-card-title">
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+    </h3>
+    
+    {# Excerpt #}
+    {% if post.data.excerpt %}
+    <p class="blog-card-excerpt">{{ post.data.excerpt }}</p>
+    {% endif %}
+    
+    {# Footer with Author and Reading Time #}
+    <footer class="blog-card-footer">
+      <span class="blog-card-author">{{ post.data.author or "Dr. Shah" }}</span>
+      {% if post.data.readingTime %}
+      <span class="blog-card-reading-time">{{ post.data.readingTime }} min read</span>
+      {% endif %}
+    </footer>
+  </div>
+</article>

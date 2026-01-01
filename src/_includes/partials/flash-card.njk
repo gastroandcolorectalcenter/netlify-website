@@ -1,0 +1,27 @@
+{# 
+  Flash Card Component
+  
+  Usage:
+  {% set flashCardData = {
+    title: "Card Title",
+    description: "Card description text",
+    link: "/optional-link/",
+    icon: "optional-icon-name"
+  } %}
+  {% include "partials/flash-card.njk" %}
+#}
+
+<div class="flash-card{% if flashCardClass %} {{ flashCardClass }}{% endif %}">
+  {% if flashCardData.icon %}
+  <div class="flash-card-icon">
+    {% include "svg/" + flashCardData.icon + ".njk" %}
+  </div>
+  {% endif %}
+  
+  <div class="flash-card-content">
+    <h3 class="flash-card-title">{{ flashCardData.title }}</h3>
+    <p class="flash-card-description">{{ flashCardData.description }}</p>
+    
+    {% include "partials/cta-buttons.njk" %}
+  </div>
+</div>
