@@ -1,11 +1,90 @@
+# Netlify Build Configuration
+
 [build]
-  command = "npm run build"
+  # Directory with the production build
   publish = "_site"
+  
+  # Build command
+  command = "npm run build"
 
 [build.environment]
+  # Node version for build
   NODE_VERSION = "18"
 
+# Redirect rules for clean URLs
+[[redirects]]
+  from = "/blogs"
+  to = "/blogs/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/services"
+  to = "/services/"
+  status = 301
+  force = false
+
+# 404 page
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 200
+  to = "/404.html"
+  status = 404
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # Performance headers - Cache static assets for 1 year
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    # HTML pages - no cache (always fresh)
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/css/*"
+  [headers.values]
+    # CSS files - cache for 1 year
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "text/css; charset=utf-8"
+
+[[headers]]
+  for = "/assets/js/*"
+  [headers.values]
+    # JavaScript files - cache for 1 year
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/assets/images/*"
+  [headers.values]
+    # Image files - cache for 1 year
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Form handling with Formspree
+# Note: You'll handle forms via Formspree directly in HTML
+# This is just for Netlify to not intercept form submissions
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = false
+  minify = true
+
+[build.processing.js]
+  bundle = false
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.images]
+  compress = true
