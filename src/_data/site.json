@@ -1,0 +1,100 @@
+{
+  "name": "Dr. Shah +",
+  "title": "Dr. Surendra Shah | Best Gastrointestinal-HPB & Laparoscopic Surgeon in Nepal",
+  "description": "Leading Gastrointestinal-HPB & Laparoscopic Surgeon and Laser Proctologist in Nepal. Book consultation for gallbladder stone, all types of hernia, laser treatment for hemorrhoids, fissure, fistula, pilonidal sinus, varicose vein and many more diseases treatment. Expert surgical care in Kathmandu & Lalitpur, Nepal.",
+  "url": "https://drsurendrashah.com.np",
+  "language": "en",
+  "locale": "en_US",
+  "author": {
+    "name": "Dr. Surendra Shah",
+    "email": "gisurgerygroup@gmail.com",
+    "url": "https://drsurendrashah.com.np"
+  },
+  "contact": {
+    "phone": "+977-9828070226",
+    "phoneDisplay": "+977 9828070226",
+    "email": "gisurgerygroup@gmail.com",
+    "whatsapp": "+9779828070226",
+    "address": {
+      "city": "Kathmandu and Lalitpur",
+      "state": "Bagmati Province",
+      "zip": "44600 and 44700",
+      "country": "Nepal"
+    }
+  },
+  "business": {
+    "type": "Person",
+    "priceRange": "$$",
+    "acceptsReservations": true,
+    "openingHours": [
+      "Su-Fr 16:00-18:30"
+    ]
+  },
+  "seo": {
+    "ogImage": "/assets/images/doctor/about-me1.webp",
+    "twitterHandle": "@drsurendrashah",
+    "keywords": [
+      "best gastrointestinal surgeon nepal",
+      "colorectal surgeon kathmandu",
+      "hepatobiliary surgeon lalitpur",
+      "pancreatic surgeon nepal",
+      "laser proctology specialist kathmandu",
+      "advanced laparoscopic surgeon kathmandu",
+      "digestive system surgeon",
+      "hemorrhoid treatment nepal",
+      "gallbladder surgery lalitpur",
+      "pancreatic surgery specialist",
+      "GI surgeon nepal",
+      "colorectal cancer treatment",
+      "minimally invasive surgery kathmandu",
+      "liver surgeon nepal",
+      "bile duct specialist",
+      "hemorrhoids laser treatment",
+      "hernia repair surgeon",
+      "appendectomy kathmandu",
+      "bowel surgery nepal",
+      "best GI surgeon kathmandu",
+      "laser therapy kathmandu nepal",
+      "best laparoscopic surgeon nepal",
+      "proctology clinic kathmandu",
+      "best fistula surgeon nepal",
+      "pilonidal sinus treatment kathmandu",
+      "varicose vein treatment nepal",
+      "best hemorrhoid surgeon kathmandu",
+      "best fissure treatment nepal",
+      "best pilonidal sinus surgeon kathmandu",
+      "best hernia surgeon nepal",
+      "gastrointestinal specialist kathmandu",
+      "HPB surgeon lalitpur",
+      "laparoscopic cholecystectomy nepal",
+      "laser hemorrhoidectomy kathmandu",
+      "anal fissure treatment nepal",
+      "anal fistula surgery kathmandu",
+      "piles",
+      "fissure",
+      "fistula",
+      "anal fistulas",
+      "anal fistula",
+      "pilonidal sinus",
+      "gallbladder stone",
+      "hernia",
+      "kathmandu", 
+      "nepal",
+      "surgery",
+      "surgical specialist",
+      "medical care",
+      "hospital",
+      "doctor",
+      "Kathmandu surgeon",
+      "laparoscopic surgery",
+      "general surgery"
+    ]
+  },
+  "formspree": {
+    "contactFormId": "https://formspree.io/f/mrgdrnoe",
+    "appointmentFormId": "https://formspree.io/f/mrgdrnoe"
+  },
+  "analytics": {
+    "googleAnalyticsId": "G-T2N4Z17DHS"
+  }
+}

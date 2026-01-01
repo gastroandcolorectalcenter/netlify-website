@@ -1,0 +1,52 @@
+{
+  "name": "Dr. Shah",
+  "fullName": "Dr. Surendra Shah",
+  "title": "Expert Gastrointestinal, Hepato-Pancreatic-Biliary, Colorectal, Laparoscopic Surgeon & Laser Proctologist",
+  "specialization": "MBBS, MS, MCh, FMAS, FALS-Hernia",
+  "image": "/assets/images/doctor/about-me1.webp",
+  "credentials": [
+    "MBBS - MCZU",
+    "MS (General Surgery) - BPKIHS",
+    "MCh (Gastrointestinal & HPB Surgery) - IOM/TUTH",
+    "Training in GI & HPB Cancer Surgery - Tata Memorial Hospital, Mumbai",
+    "Training in Gastric Cancer Surgery - SNUH, Seoul, South Korea",
+    "Training in Laser Proctology - India",
+    "Fellowship in Laparoscopic Surgery - AMASI, India",
+    "Fellowship in Laparoscopic Hernia Surgery - IAGES, India"
+  ],
+  "experience": "22+ years of experience in Medical Field",
+  "bio": {
+    "short": "Dr. Shah has decades of experience and is also a senior academician with numerous published research works providing compassionate and personalized surgical care with minimally invasive techniques (laparoscopic & laser surgery) in Nepal. He is the first in Nepal to research and publish on laser surgery for anal fistula and the first in Nepal to perform laparoscopic gastric cancer surgery.",
+    "full": [
+      "Dr. Shah is a renowned surgical specialist with extensive experience in both traditional and minimally invasive surgical techniques. With a career spanning over 15 years, Dr. Shah has successfully performed thousands of surgical procedures with exceptional patient outcomes.",
+      "Trained at premier medical institutions, Dr. Shah combines technical excellence with a patient-centered approach. His practice focuses on utilizing the latest surgical innovations while maintaining the highest standards of patient safety and care.",
+      "Dr. Shah is actively involved in medical education and regularly participates in national and international surgical conferences. He believes in continuous learning and staying updated with the latest advances in surgical science."
+    ]
+  },
+  "expertise": [
+    "Laparoscopic Surgery",
+    "Hernia Repair",
+    "Gallbladder Surgery",
+    "Appendectomy",
+    "Thyroid Surgery",
+    "Colorectal Surgery",
+    "Emergency Surgery",
+    "Minimally Invasive Procedures"
+  ],
+  "memberships": [
+    "Nepal Medical Council",
+    "Association of Surgeons of Nepal",
+    "International Association of Laparoscopic Surgeons"
+  ],
+  "achievements": [
+    "Performed 5000+ successful surgeries",
+    "Pioneer in laparoscopic techniques in the region",
+    "Published research in international medical journals",
+    "Regular speaker at medical conferences"
+  ],
+  "languages": [
+    "English",
+    "Nepali",
+    "Hindi"
+  ]
+}
