@@ -516,7 +516,7 @@
 }
 
 .blog-card-reading-time {
-  color: #999;
+  color: var(--text-muted);
 }
 
 /* ================================
@@ -876,7 +876,7 @@ button {
    =================== */
 .site-footer {
   background-color: var(--bg-dark);
-  color: #adb5bd;
+  color: #dee2e6;
   padding: var(--spacing-2xl) 0 var(--spacing-lg);
   margin-top: var(--spacing-2xl);
 }
