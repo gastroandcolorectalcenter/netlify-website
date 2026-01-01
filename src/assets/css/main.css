@@ -1,10 +1,6 @@
-/* ============================================
-   MAIN STYLESHEET - Dr. Shah Surgical Practice
-   ============================================ */
-
-/* ===================
-   CSS VARIABLES
-   =================== */
+/* ===============
+   MAIN STYLESHEET 
+   =============== */
 :root {
   /* Colors */
   --primary-color: #0066cc;
@@ -33,13 +29,13 @@
   --border-dark: #764ba2;
   
   /* Success/Error Colors */
-  --success-color: #28a745;
+  --success-color: #148E41;
   --error-color: #dc3545;
   --warning-color: #ffc107;
   --info-color: #17a2b8;
   
   /* WhatsApp Color */
-  --whatsapp-color: #25d366;
+  --whatsapp-color: #148E41;
   
   /* Spacing */
   --spacing-xs: 0.5rem;
