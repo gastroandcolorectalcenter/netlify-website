@@ -1,16 +1,27 @@
 {
-  "name": "your-website",
+  "name": "dr-shah-surgical-practice",
   "version": "1.0.0",
-  "description": "Static website with Eleventy blog",
+  "description": "Professional surgical practice website for Dr. Shah built with Eleventy",
+  "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "clean": "rm -rf _site"
+    "clean": "rm -rf _site",
+    "debug": "DEBUG=Eleventy* eleventy"
   },
-  "keywords": ["eleventy", "blog", "static-site"],
-  "author": "Your Name",
+  "keywords": [
+    "eleventy",
+    "surgery",
+    "medical",
+    "healthcare",
+    "static-site"
+  ],
+  "author": "Dr. Shah",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "dependencies": {
+    "markdown-it-anchor": "^8.6.7"
   }
 }
