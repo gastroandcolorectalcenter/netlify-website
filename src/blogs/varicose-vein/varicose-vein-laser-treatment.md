@@ -1,193 +1,107 @@
 ---
-title: "Laser Treatment for Varicose Vein"
-titleNe: "भेरिकोज भेनको लेजर उपचार (EVLA): आधुनिक, सुरक्षित र प्रभावकारी समाधान"
-description: Varicose vein भनेको के हो? लेजर उपचार (EVLA) कसरी गरिन्छ, यसको फाइदा, रिकभरी, जोखिम र कसलाई उपयुक्त हुन्छ—सबै जानकारी सरल भाषामा।
-keywords: varicose vein laser treatment Nepal, EVLA Nepal, varicose vein treatment doctor Nepal, laser treatment for varicose vein, varicose vein surgery alternative
-date: 2026-01-13
-excerpt: भेरिकोज भेन केवल सौन्दर्य समस्या होइन। यसको कारण, लक्षण, जटिलता र किन लेजर उपचार आजको गोल्ड स्ट्यान्डर्ड हो भन्ने कुरा बुझ्नुहोस्।
-excerptNe: भेरिकोज भेन के हो, किन हुन्छ, र किन लेजर उपचार (EVLA) सबैभन्दा सुरक्षित र प्रभावकारी विकल्प मानिन्छ—बिरामीमैत्री गाइड।
+title: "Varicose Vein: Symptoms, Causes, Preventive Measures"
+titleNe: "भेरिकोज भेन: लक्षण, कारण र रोकथामका उपाय"
+description: Learn about varicose veins, their symptoms, causes, risk factors, and preventive measures to maintain healthy veins and avoid complications.
+keywords: varicose vein symptoms, varicose vein causes, varicose vein prevention, EVLA Nepal, laser treatment for varicose vein, varicose vein care, vascular health Nepal
+date: 2026-01-17
+excerpt: A comprehensive patient-friendly guide to varicose veins covering symptoms, causes, risk factors, and ways to prevent progression or complications.
+excerptNe: बिरामीमैत्री गाइड जसले भेरिकोज भेनका लक्षण, कारण, जोखिम र रोकथामका उपायहरू बुझाउँछ।
 tags:
   - Varicose Veins
-  - Laser Treatment
-  - EVLA
-  - Vascular Surgery
+  - Vascular Health
+  - Prevention
   - Patient Education
 featured: true
 readingTime: 12
-featuredImage: /assets/images/blog/varicose-vein-featured.webp
-featuredImageAlt: Laser treatment for varicose veins
+featuredImage: /assets/images/blog/varicose-vein-symptoms-featured.webp
+featuredImageAlt: Medical illustration showing varicose veins in legs
 ---
 
 <!-- English content (default) -->
 
-## Laser Treatment for Varicose Vein
+## Understanding Varicose Vein: Symptoms, Causes, Preventive Measures
 
-Varicose veins are a common vascular condition affecting millions worldwide. While often seen as a cosmetic concern, untreated varicose veins can cause discomfort and serious complications. Laser treatment (EVLA) is a modern solution offering safety, precision, and rapid recovery.
+Varicose veins are **swollen, twisted veins** that commonly appear in the legs and feet. While often considered a cosmetic issue, they may cause discomfort, pain, and serious complications if untreated. Understanding varicose veins helps you take preventive steps and seek timely treatment.
 
 ---
 
 ## What Are Varicose Veins?
 
-Varicose veins are **enlarged, twisted veins** visible under the skin, commonly in the legs and feet. They occur when **vein valves fail**, causing blood to pool and veins to swell.
+Varicose veins occur when the **valves in veins fail to function properly**, allowing blood to pool and veins to swell. They appear as:
+
+- Dark blue or purple bulging veins  
+- Twisted, rope-like structures under the skin  
 
 <div class="flash-card" style="background:#e3f2fd;padding:18px;border-left:4px solid #2196f3;margin:20px 0;">
-<strong>🔍 Key Point</strong><br>
-Varicose veins are a medical condition, not just a cosmetic issue.
+<strong>🔍 Key Fact</strong><br>
+Varicose veins are a structural vascular problem, not just a cosmetic concern.
 </div>
 
-### Common Locations
-- Legs (most common)  
-- Feet  
-- Ankles  
-- Lower calves  
+---
+
+## Common Symptoms
+
+- Visible, bulging veins  
+- Aching, heaviness, or fatigue in the legs  
+- Burning, throbbing, or cramps  
+- Swelling in lower legs or ankles  
+- Itching or skin irritation around veins  
+- Skin discoloration  
+- Pain worsens after long standing or sitting  
 
 ---
 
 ## Causes and Risk Factors
 
-- **Age**: Veins lose elasticity; valves weaken.  
-- **Gender**: Women higher risk (pregnancy, hormones).  
-- **Pregnancy**: Increased blood volume and hormone effects.  
-- **Family History**: Genetics plays a role.  
-- **Obesity**: Extra weight increases vein pressure.  
-- **Prolonged Standing/Sitting**: Reduces blood flow, increases vein pressure.
+- **Age:** Veins lose elasticity; valves weaken  
+- **Gender:** Women higher risk (pregnancy, hormones)  
+- **Pregnancy:** Blood volume increases; hormone changes relax vein walls  
+- **Family History:** Genetics influence susceptibility  
+- **Obesity:** Extra weight increases vein pressure  
+- **Prolonged Standing or Sitting:** Reduces blood flow and increases venous pressure  
 
----
-
-## Symptoms
-
-- Visible bulging veins, dark blue or purple  
-- Aching, heaviness in legs  
-- Burning, throbbing, cramping  
-- Swelling in calves/ankles  
-- Itching around veins  
-- Skin discoloration  
-- Pain worsens with prolonged sitting or standing  
-
----
-
-## Complications If Untreated
-
-- **Ulcers** near veins  
-- **Blood clots (DVT)**  
-- **Bleeding** from veins near skin  
-- **Chronic venous insufficiency**  
-
----
-
-## Traditional Treatments
-
-- Vein stripping (surgical removal)  
-- Sclerotherapy (chemical injection)  
-- Compression stockings  
-
-Limitations: longer recovery, more discomfort.
-
----
-
-## Laser Treatment (EVLA)
-
-Endovenous Laser Ablation is **minimally invasive**, precise, and highly effective.
-
-### Procedure Steps
-1. Area cleaned; local anesthesia applied  
-2. Thin laser fiber inserted through a small incision  
-3. Laser heats vein wall → collapses & seals vein  
-4. Blood reroutes through healthy veins  
-5. Sealed vein absorbed by the body gradually  
-
----
-
-## Advantages of Laser Treatment
-
-- **Minimally invasive**: small puncture, no general anesthesia  
-- **Quick recovery**: normal activity in 24 hours  
-- **High success rate**: 95–98%, low recurrence  
-- **Minimal pain & bruising**  
-- **Better cosmetic results**: no large scars  
-- **Lower complication risk**  
-- **Precision targeting of affected veins**  
-- **No hospital stay required**  
-
-<div class="flash-card" style="background:#e8f5e9;padding:18px;border-left:4px solid #4caf50;margin:20px 0;">
-<strong>✅ Patient Benefit</strong><br>
-Most patients return to normal life quickly with excellent cosmetic results.
+<div class="flash-card" style="background:#fff8e1;padding:18px;border-left:4px solid #ff9800;margin:20px 0;">
+<strong>⚠️ Important</strong><br>
+Early recognition and lifestyle modification can prevent progression and complications.
 </div>
 
 ---
 
-## Recovery Timeline
+## Potential Complications If Untreated
 
-### Immediate (Days 1–3)
-- Wear compression stockings  
-- Walk regularly  
-- Avoid strenuous activity  
-- Keep area clean & dry  
-- Take pain medication as needed  
-
-### Short-Term (Weeks 1–2)
-- Resume most normal activities  
-- Continue compression stockings  
-- Avoid heavy lifting  
-- Follow-up visits  
-
-### Long-Term (Months 1–3)
-- Veins gradually fade  
-- Symptoms improve  
-- Cosmetic results visible  
-- Resume all activities including exercise  
+- Skin ulcers  
+- Blood clots (DVT)  
+- Bleeding from superficial veins  
+- Chronic venous insufficiency  
 
 ---
 
-## Is Laser Treatment Right for You?
+## Preventive Measures
 
-**Good candidates**:
-- Symptomatic varicose veins  
-- Desire minimally invasive approach  
-- Quick recovery & cosmetic outcome  
-- Failed conservative treatment  
+You can reduce risk and prevent worsening of varicose veins by adopting the following:
 
-**Not ideal**:
-- Very tortuous veins  
-- Certain skin types  
-- Pregnant women  
-- Certain medical conditions  
+- **Regular Exercise:** Walking, cycling, yoga to improve circulation  
+- **Maintain Healthy Weight:** Reduces pressure on leg veins  
+- **Elevate Legs:** Especially after long periods of standing  
+- **Avoid Prolonged Sitting/Standing:** Take breaks to move  
+- **Compression Stockings:** If advised by a doctor  
+- **High-Fiber Diet:** Prevents constipation and straining  
+- **Stay Hydrated**  
 
----
-
-## Consultation Process
-
-1. Medical history review  
-2. Physical exam of veins  
-3. Ultrasound mapping  
-4. Personalized treatment plan  
-5. Questions & answers  
+<div class="flash-card" style="background:#e8f5e9;padding:18px;border-left:4px solid #4caf50;margin:20px 0;">
+<strong>✅ Tip for Patients</strong><br>
+Simple daily habits can significantly reduce discomfort and prevent varicose vein progression.
+</div>
 
 ---
 
-## Cost and Insurance
+## When to See a Doctor
 
-- Often covered if medically necessary  
-- Depends on symptom severity & failed conservative treatments  
-
----
-
-## Preventing Varicose Veins
-
-- Maintain healthy weight  
-- Exercise regularly  
-- Avoid prolonged standing/sitting  
-- Elevate legs when resting  
-- Use compression stockings if advised  
-- Stay hydrated  
-- High-fiber, low-salt diet  
-
----
-
-## Conclusion
-
-Varicose veins affect health, not just appearance.  
-Laser treatment (EVLA) offers **safety, speed, and precision**. Early treatment prevents complications and ensures better outcomes.
+- Visible, worsening veins  
+- Persistent leg pain or swelling  
+- Bleeding, skin ulcers, or color changes  
+- History of blood clots  
+- Discomfort affecting daily activities  
 
 ---
 
@@ -195,29 +109,38 @@ Laser treatment (EVLA) offers **safety, speed, and precision**. Early treatment 
 
 <div class="faq-list">
   <details class="faq-item">
-    <summary>What is EVLA?</summary>
-    <p>Endovenous Laser Ablation (EVLA) is a minimally invasive laser procedure to close varicose veins safely.</p>
+    <summary>What causes varicose veins?</summary>
+    <p>Varicose veins are caused by weak or damaged vein valves, genetics, aging, pregnancy, obesity, and prolonged standing/sitting.</p>
   </details>
   <details class="faq-item">
-    <summary>Is laser treatment painful?</summary>
-    <p>Minimal discomfort; local anesthesia reduces pain.</p>
+    <summary>Are varicose veins dangerous?</summary>
+    <p>Not always, but untreated veins can lead to ulcers, bleeding, or blood clots.</p>
   </details>
   <details class="faq-item">
-    <summary>How quickly can I return to work?</summary>
-    <p>Most patients resume daily activity within 24–48 hours.</p>
+    <summary>Can varicose veins be prevented?</summary>
+    <p>Yes, with lifestyle measures like exercise, healthy weight, leg elevation, and avoiding prolonged sitting/standing.</p>
   </details>
   <details class="faq-item">
-    <summary>Are results permanent?</summary>
-    <p>High success; recurrence is low with proper care.</p>
+    <summary>When should I seek treatment?</summary>
+    <p>If veins are painful, swollen, or causing skin changes, consult a vascular specialist or a doctor trained in EVLA / laser treatment.</p>
   </details>
   <details class="faq-item">
-    <summary>Can laser treatment be used for all varicose veins?</summary>
-    <p>Not for extremely twisted veins or in certain medical conditions; consultation needed.</p>
+    <summary>Is laser treatment effective for prevention?</summary>
+    <p>Laser treatment (EVLA) closes diseased veins and prevents complications; it is minimally invasive with quick recovery.</p>
   </details>
 </div>
 
 ---
 
+---
+
+## Disclaimer
+
+This article is for educational purposes only and does not replace professional medical advice. Always consult a qualified healthcare provider for diagnosis and treatment.
+
+---
+
+<!-- Call to Action -->
 <div class="blog-post-cta">
 
 ### Are You Suffering From Varicose Vein?
@@ -234,132 +157,89 @@ Laser treatment (EVLA) offers **safety, speed, and precision**. Early treatment 
 
 ---
 
-## Disclaimer
-
-This article is intended for educational purposes only and does not replace professional medical advice. Always consult a qualified healthcare provider for diagnosis and treatment tailored to your condition.
-
----
-
 <!-- Nepali content -->
 <div data-lang="ne">
 
-## भेरिकोज भेनको लेजर उपचार (EVLA)
+## भेरिकोज भेन बुझ्नुहोस्: लक्षण, कारण र रोकथामका उपाय
 
-भेरिकोज भेन लाखौं मानिसमा हुने साधारण नसाको समस्या हो। सौन्दर्य मात्र समस्या होइन—यदि उपचार नगरेको खण्डमा असहजता र गम्भीर समस्या आउन सक्छ। आधुनिक लेजर उपचार (EVLA) **सुरक्षित, प्रभावकारी र छिटो रिकभरी हुने समाधान** हो।  
+भेरिकोज भेन भनेको **सुन्निने र घुम्ती नसा** हुन् जुन प्रायः खुट्टामा देखा पर्छन्। सौन्दर्य समस्या मात्र होइन, उपचार नगरेमा असहजता, दुखाइ र गम्भीर जटिलता आउन सक्छ।  
 
 ---
 
 ## भेरिकोज भेन भनेको के हो?
 
-भेरिकोज भेन **पातलो र नालीदार नसाहरु** हुन् जुन छालाको सतहमुनि देखिन्छ, प्रायः खुट्टा र खुट्टाको तलमा।  
-नसाका भल्भ काम नगर्दा रगत जम्मा हुन्छ र नसा सुन्निने/घुम्ने/फुल्ने गर्छ।  
+भेरिकोज भेन तब देखा पर्छ जब **नसाको भल्भ ठीकसँग काम गर्दैन**। रगत नसामा जम्मा हुन्छ र नसा सुन्निने/फुल्ने गर्छ।  
+- नीलो वा बैजनी रंगको सुन्निने नसा  
+- छालामुनि घुम्ती/रस्सी जस्तै नसा  
 
 <div class="flash-card" style="background:#e3f2fd;padding:18px;border-left:4px solid #2196f3;margin:20px 0;">
-<strong>🔍 महत्वपूर्ण कुरा</strong><br>
+<strong>🔍 मुख्य कुरा</strong><br>
 भेरिकोज भेन केवल सौन्दर्य समस्या होइन, चिकित्सकीय अवस्था हो।
 </div>
 
-### सामान्य स्थान
-- खुट्टा (सबैभन्दा सामान्य)  
-- खुट्टाको तल  
-- टखने  
-- तलका बाछाहरू  
+---
+
+## सामान्य लक्षण
+
+- देखिने, सुन्निने नसा  
+- खुट्टामा भारीपन, थकान  
+- जलन, दुखाइ वा मांसपेशी खिच्किनु  
+- तलका खुट्टा वा टखनेमा सुन्निनु/फुल्नु  
+- नसा वरिपरि चिलाउने/खुजली  
+- छालामा रङ परिवर्तन  
+- लामो समय उभिए/बस्दा दुखाइ बढ्नु  
 
 ---
 
-## कारण र जोखिम कारक
+## कारण र जोखिम
 
-- **उमेर**: नसाको लचकता कम हुन्छ; भल्भ कमजोर हुन्छ।  
-- **लिङ्ग**: महिलामा बढी; गर्भावस्था, हार्मोन, वा जन्म नियन्त्रण गोलीले बढाउँछ।  
-- **गर्भावस्था**: रगतको मात्रा बढ्छ र नसामा दबाब।  
-- **परिवारको इतिहास**: परिवारमा भएमा सम्भावना बढ्छ।  
-- **मोटोपन**: अतिरिक्त वजनले नसामा दबाब बढाउँछ।  
-- **दीर्घकालीन उभिनु/बस्नु**: रगतको प्रवाह कम हुन्छ, नसा दबाबमा पर्छ।  
+- **उमेर:** नसाको लचकता कम, भल्भ कमजोर  
+- **लिङ्ग:** महिलामा बढी जोखिम (गर्भावस्था, हार्मोन)  
+- **गर्भावस्था:** रगतको मात्रा बढ्छ, हार्मोनले नसाको भित्ता फुलाउँछ  
+- **परिवारको इतिहास:** जेनेटिक प्रभाव  
+- **मोटोपन:** वजनले नसामा दबाब बढाउँछ  
+- **दीर्घकालीन उभिनु/बस्नु:** रगतको प्रवाह कम, नसामा दबाब  
 
----
-
-## लक्षण
-
-- सुन्निने नसा देखिने, नीलो/बैजनी रङ  
-- खुट्टामा भारीपन, दुखाइ  
-- जलन, टाउको दुखाइ, मांसपेशी खिच्किनु  
-- तलका खुट्टामा सुन्निनु/फुल्नु  
-- प्रभावित नसा वरिपरि खोक्रो रङ  
-- लामो समय बस्दा/उभिँदा दुखाइ बढ्नु  
+<div class="flash-card" style="background:#fff8e1;padding:18px;border-left:4px solid #ff9800;margin:20px 0;">
+<strong>⚠️ महत्वपूर्ण</strong><br>
+सुरुमा चिन्ह र जीवनशैली सुधारले समस्या बढ्न रोक्छ।
+</div>
 
 ---
 
 ## उपचार नगरेको खण्डमा जटिलता
 
-- **घाउ/फोका**: नसाको वरिपरि दुखाइ हुने घाउ  
-- **रगतका थक्का**: गहिरो नसामा थक्का (DVT)  
-- **रगत बग्नु**: सतह नसा फुट्नु  
-- **दीर्घकालीन नसाको कमजोदी**  
+- छालामा घाउ/फोका  
+- रगतका थक्का (DVT)  
+- सतही नसा फुटेर रगत बग्नु  
+- दीर्घकालीन नसाको कमजोदी  
 
 ---
 
-## पारंपरिक उपचार
+## रोकथामका उपाय
 
-- नसा फाल्ने शल्यक्रिया  
-- स्क्लेरोथेरापी (रासायनिक इंजेक्शन)  
-- कम्प्रेसन स्टकिङ  
-
-सीमितता: लामो रिकभरी, बढी असहजता।  
-
----
-
-## लेजर उपचार (EVLA)
-
-Endovenous Laser Ablation **न्यूनतम छेडछाड, प्रभावकारी र छिटो रिकभरी हुने** आधुनिक उपचार हो।  
-
-### प्रक्रिया
-1. क्षेत्र सफा; स्थानीय एनस्थेसिया  
-2. सानो छेदबाट पातलो लेजर तन्तु नसामा राख्ने  
-3. लेजरले नसाको भित्तालाई तताएर बन्द गरिदिने  
-4. रगत स्वस्थ नसाबाट reroute हुन्छ  
-5. बन्द नसाले बिस्तारै शरीरले अवशोषण गर्छ  
-
----
-
-## लेजर उपचारका फाइदा
-
-- **कम छेडछाड**: सानो छेद मात्र, सामान्य एनस्थेसिया आवश्यक छैन  
-- **छिटो रिकभरी**: २४ घण्टामा दैनिक काम  
-- **उच्च सफलता दर**: ९५–९८%, कम पुनरावृत्ति  
-- **दुखाइ कम**  
-- **सौन्दर्यमा सुधार**: ठूलो दाग हुँदैन  
-- **जटिलता कम**  
-- **सटीक उपचार**  
-- **अस्पतालमा बस्न आवश्यक छैन**  
+- **नियमित व्यायाम:** हिँडाइ, साइकल, योग  
+- **सही तौल:** खुट्टामा दबाब कम  
+- **खुट्टा उठाएर विश्राम:** लामो समय उभिए/बस्दा  
+- **दीर्घकालीन उभिनु/बस्नुबाट बच्ने**  
+- **कम्प्रेसन स्टकिङ:** डाक्टर सल्लाह अनुसार  
+- **फाइबरयुक्त आहार:** कब्जियत कम, जोर कम  
+- **प्रचुर पानी पिउने**  
 
 <div class="flash-card" style="background:#e8f5e9;padding:18px;border-left:4px solid #4caf50;margin:20px 0;">
-<strong>✅ बिरामीको लाभ</strong><br>
-अधिकांश बिरामी छिटो सामान्य जीवनमा फर्कन्छन् र राम्रो सौन्दर्य परिणाम पाउँछन्।
+<strong>✅ सुझाव</strong><br>
+सामान्य दैनिक बानीले असहजता कम र रोग प्रगतिलाई रोक्छ।
 </div>
 
 ---
 
-## रिकभरी
+## कहिले डाक्टरलाई देखाउने?
 
-### तत्काल (दिन १–३)
-- कम्प्रेसन स्टकिङ लगाउने  
-- नियमित हिँडडुल  
-- जोर नगर्ने  
-- क्षेत्र सफा र सुख्खा राख्ने  
-- आवश्यक भएमा दुखाइको औषधि  
-
-### छोटो अवधि (साता १–२)
-- सामान्य गतिविधि  
-- कम्प्रेसन स्टकिङ जारी राख्ने  
-- भारी वजन उठाउने/कडा व्यायाम नगर्ने  
-- फोलो-अप  
-- असामान्य लक्षण जाँच  
-
-### दीर्घकालीन (महिना १–३)
-- नसाहरु बिस्तारै हराउँछन्  
-- लक्षण सुधार  
-- पूर्ण सौन्दर्य परिणाम  
-- सबै गतिविधि पुनः सुरु  
+- नसा देखिनु/बढ्नु  
+- लगातार दुखाइ वा सुन्निनु  
+- रगत बग्नु, घाउ/रङ परिवर्तन  
+- रगतका थक्का भएको इतिहास  
+- दैनिक जीवनमा समस्या  
 
 ---
 
@@ -367,24 +247,24 @@ Endovenous Laser Ablation **न्यूनतम छेडछाड, प्र�
 
 <div class="faq-list">
   <details class="faq-item">
-    <summary>EVLA भनेको के हो?</summary>
-    <p>Endovenous Laser Ablation (EVLA) ले सुरक्षित र न्यूनतम छेडछाड गरेर नसालाई बन्द गर्ने प्रक्रिया हो।</p>
+    <summary>भेरिकोज भेन किन हुन्छ?</summary>
+    <p>नसाको भल्भ कमजोर वा बिग्रँदा, जेनेटिक, उमेर, गर्भावस्था, मोटोपन र लामो उभिनु/बस्नु कारण हुन्छ।</p>
   </details>
   <details class="faq-item">
-    <summary>लेजर उपचार दुखाइ हुने हो?</summary>
-    <p>स्थानीय एनस्थेसियाले दुखाइ कम हुन्छ; सामान्यतया धेरै असहज हुँदैन।</p>
+    <summary>भेरिकोज भेन खतरनाक हुन्छ?</summary>
+    <p>सधैं होइन, तर उपचार नगरे घाउ, रगत बग्ने वा थक्का आउन सक्छ।</p>
   </details>
   <details class="faq-item">
-    <summary>कति छिटो काममा फर्कन सकिन्छ?</summary>
-    <p>धेरै बिरामी २४–४८ घण्टामा दैनिक काममा फर्कन्छन्।</p>
+    <summary>के रोकथाम सम्भव छ?</summary>
+    <p>व्यायाम, सही तौल, खुट्टा उठाएर विश्राम, लामो समय उभिनु/बस्नुबाट बच्दा रोकथाम हुन्छ।</p>
   </details>
   <details class="faq-item">
-    <summary>नतिजा स्थायी हुन्छ?</summary>
-    <p>सही हेरचाहमा नतिजा लामो समय टिक्छ; पुनरावृत्ति कम।</p>
+    <summary>कहिले उपचार खोज्ने?</summary>
+    <p>नसा दुखाइ, सुन्निने वा छालामा परिवर्तन हुँदा भास्कुलर विशेषज्ञ वा EVLA/लेजर उपचार डाक्टरलाई देखाउनुहोस्।</p>
   </details>
   <details class="faq-item">
-    <summary>सबै भेरिकोज भेनमा लेजर उपचार गर्न सकिन्छ?</summary>
-    <p>सुन्तला/घुम्तो नसा वा केही स्वास्थ्य अवस्था भएकामा सल्लाह आवश्यक।</p>
+    <summary>लेजर उपचार रोकथाममा सहयोग गर्छ?</summary>
+    <p>EVLA ले रोगी नसा बन्द गर्छ र जटिलता रोक्छ; न्यूनतम छेडछाड र छिटो रिकभरी हुन्छ।</p>
   </details>
 </div>
 
@@ -392,9 +272,8 @@ Endovenous Laser Ablation **न्यूनतम छेडछाड, प्र�
 
 ### भेरिकोज भेनको समस्या छ?
 
-**लेजर उपचार (EVLA) डे केयर र न्यूनतम आक्रामक प्रक्रिया हो!**
-
-**डा. सुरेन्द्र शाह -** लेजर उपचार (EVLA) विशेषज्ञ
+**डा. सुरेन्द्र शाह**\
+लेजर उपचार (EVLA) विशेषज्ञ
 
 <a href="/appointment/" class="blog-post-cta-btn"> 📅 भेटघाट बुक गर्नुहोस् </a> <p style="margin-top: 15px; font-size: 14px;"> छिटो उपचार = राम्रो नतिजा + छिटो रिकभरी </p> </div>
 
@@ -405,7 +284,5 @@ Endovenous Laser Ablation **न्यूनतम छेडछाड, प्र�
 
 यो लेख सामान्य जानकारीका लागि मात्र हो।\
 व्यक्तिगत अवस्था अनुसार उपचार फरक हुन सक्छ। कृपया चिकित्सकको सल्लाह पालना गर्नुहोस्।
-
----
 
 </div>
