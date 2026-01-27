@@ -1,0 +1,18 @@
+{
+  "layout": "layouts/service.njk",
+  "tags": "service",
+  "permalink": "/services/{{ title | slugify }}/",
+  "eleventyComputed": {
+    "breadcrumbs": {
+      "services": [
+        {
+          "text": "Services",
+          "url": "/services/"
+        },
+        {
+          "text": "{{ title }}"
+        }
+      ]
+    }
+  }
+}

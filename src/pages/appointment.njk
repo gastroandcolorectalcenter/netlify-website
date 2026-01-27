@@ -1,0 +1,295 @@
+---
+layout: layouts/base.njk
+title: Book Your Appointment with Dr. Surendra Shah
+description: Book your appointment with a Nepal's leading Gastrointestinal-HPB, Colorectal, & Laparoscopic Surgeon and Laser Proctologist in Nepal serving in Kathmandu and Lalitpur.
+permalink: /appointment/
+popup: yes
+---
+
+<!-- Appointment section -->
+<section class="about-section" aria-labelledby="about-dr-shah">
+    <div class="container-2columns about-container">
+        <div class="container-right about-left">
+        <img
+            src="/assets/images/appointment.webp"
+            sizes="(max-width: 400px) 100vw, 380px"
+            alt="Dr. Surendra Shah - Gastrointestinal and HPB Surgeon in Nepal"
+            width="380"
+            height="380"
+            fetchpriority="high"
+            decoding="async"
+            loading="eager"
+        >
+        </div>
+        <div class="container-left about-right">
+            <h1 id="about-dr-shah" class="heading-1">
+                <span class="heading-highlight">Book</span> Your <span class="heading-highlight">Appointment</span>
+            </h1>
+            <em>
+                Are you suffering from Gastrointestinal - Hepatic-Pancreatic-Biliary, Colorectal, Proctological diseases or Hernia?
+                <br><br>
+                Schedule your consultation with Dr. Surendra Shah at your convenient hospital.
+            </em>
+        </div>
+    </div>
+</section>
+
+<!-- appointment form -->
+<section>
+<!------Form for appointment------>
+    <div class="contactform-container container">
+        <div class="section-header">
+            <h2 class="section-subtitle">Appointment Form</h2>
+        </div>
+        <form class="form-contact" id="appointment-form" method="POST" action="https://script.google.com/macros/s/AKfycbxMAmuKqsrtzdVJdP9lUzVgZsfex4GyGKt-4sTb1nJbvkTzlMOzcDqamxvmbEsVn60n/exec">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required placeholder="Full Name *"/>
+            </div>
+        
+            <div class="form-group">
+                <input type="text" id="address" name="address" required placeholder="Address *"/>
+            </div>
+        
+            <div class="form-group">
+                <input type="tel" id="mobile" name="mobile" required placeholder="Mobile Number * (+977 98XXXXXXXX)"/>
+            </div>
+        
+            <div class="form-group">
+                <input type="email" id="email" name="email" required placeholder="Email * (your.email@example.com)"/>
+            </div>
+        
+            <div style="padding-left: 10px;" class="form-group">
+                <select id="hospital" name="hospital" required>
+                <option value="">Select Hospital *</option>
+                <option value="Sumeru Hospital Dhapakhel">Sumeru Hospital Dhapakhel</option>
+                <option value="Vayodha Hospital">Vayodha Hospital</option>
+                <option value="Norvic International Hospital">Norvic International Hospital</option>
+                </select>
+            </div>
+        
+            <div class="form-group">
+                <br>
+                <p style="padding-left: 10px; font-size: 0.9rem; color: #888;"><span style="font-weight: 600; color: #6d6f6f;">Date Selection (bellow):</span> Select Sunday to Friday for Sumeru Hospital | Sunday, Tuesday, Thursday for Vayodha Hospital | Wednesday, Friday for Norvic Hospital</p>
+                <input type="date" id="appointmentDate" name="appointmentDate" required placeholder="Appointment Date *"/>
+            </div>
+        
+            <div class="form-group">
+                <input type="text" id="opdTime" name="opdTime" readonly required placeholder="OPD Time *"/>
+            </div>
+        
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Write your health issue like, gallbladder stone, hernia, piles, fistula."></textarea>
+            </div>
+        
+            <div class="form-group recaptcha-wrapper">
+                <div class="g-recaptcha" data-sitekey="6LfNCZcrAAAAACU7VnecPT10kAr2b-PA1Wk1mrof"></div>
+                <div style="padding: 1.5rem 0;" id="recaptcha-error" class="error-message">Please complete the reCAPTCHA verification.</div>
+            </div>
+        
+            <button type="submit" class="submit-btn" id="submitBtn">
+                Submit Appointment Request
+            </button>
+        </form>
+    
+        <div class="contact-info">
+            <h2 class="section-subtitle">Need Help?</h2>
+            <p>Message in WhatsApp: <a href="https://wa.me/9779828070226" target="_blank">+977 9828070226</a></p>
+            <div>
+                <p>Call Sumeru Hospital Dhapakhel: <a href="tel:015275088">015275088</a></p>
+                <p>Call Vayodha Hospital: <a href="tel:015385280">015385280</a></p>
+                <p>Call Norvic International Hospital: <a href="tel:015970432">015970432</a></p>
+                <strong>Ask for an appointment with Dr. Surendra Shah</strong>
+            </div>
+        </div>
+    </div>
+
+    <div id="confirmationModal" class="apt-modal">
+        <div class="apt-modal-content">
+        <span class="apt-close">&times;</span>
+        <div id="confirmationMessage"></div>
+        </div>
+    </div>
+</section>
+
+<!--Privacy policy pop-up-->
+<section>
+    <div class="pop-up-container">
+        <p>
+            <button class="disclaimer-link btn-link" 
+                id="disclaimerTrigger"
+                aria-haspopup="dialog">
+                <span>📋</span>  
+                Read privacy-policy
+            </button>
+        </p>
+        <!--Pop-up message-->
+        <div class="modal-overlay" 
+            id="disclaimerModal" 
+            role="dialog" 
+            aria-modal="true" 
+            aria-labelledby="modalTitle">
+            <div class="modal">
+                <div class="modal-header">
+                    <h2 id="modalTitle">Privacy-Policy</h2>
+                    <button class="modal-close" 
+                            id="closeModal" 
+                            aria-label="Close disclaimer">
+                        ×
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Important Notice:</strong></p>
+                    <p>This Privacy Policy describes how we collect and use the information you submit through our website contact form.</p>
+                    <p><strong>Information We Collect</strong></p>
+                    <p>We may collect your name, mobile number, email, and message when you contact us through the form.</p>
+                    <p><strong>How We Use Your Information</strong></p>
+                    <p>Your information is used solely to respond to your inquiries and may be sent via email or WhatsApp notification to our team.</p>
+                    <p><strong>Data Security</strong></p>
+                    <p>We implement security measures to protect your information but cannot guarantee complete security.</p>
+                    <p><strong>Third-Party Services</strong></p>
+                    <p>We use Formspree to handle form submissions. Please review their privacy policy for more details.</p>
+                    <p><strong>Your Rights</strong></p>
+                    <p>You can request correction, or deletion of your personal information by contacting us.</p>
+                    <p><strong>Changes to This Policy</strong></p>
+                    <p>We may update this Privacy Policy periodically. Changes will be posted on this page.</p>
+                    <p><strong>Contact Us</strong></p>
+                    <p>If you have any questions about this policy, <a href="mailto:gisurgerygroup@gmail.com">email us</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="flash-card">
+        <p><strong>Important Notice:</strong> We suggest to consult emergency department of nearby Hospital for medical
+    emergency. We discourage to take an appointment for emergency conditions.</p>
+    </div>
+</section>
+
+<!--Script to appointment form-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('appointmentForm');
+        const hospitalSelect = document.getElementById('hospital');
+        const dateInput = document.getElementById('appointmentDate');
+        const opdTimeInput = document.getElementById('opdTime');
+        const modal = document.getElementById('confirmationModal');
+        const closeBtn = document.querySelector('.close');
+        const confirmationMessage = document.getElementById('confirmationMessage');
+        const submitBtn = document.getElementById('submitBtn');
+        const recaptchaError = document.getElementById('recaptcha-error');
+    
+        const hospitalDays = {
+            "Sumeru Hospital Dhapakhel": [0, 1, 2, 3, 4, 5],
+            "Vayodha Hospital": [0, 2, 4],
+            "Norvic International Hospital": [3, 5]
+        };
+    
+        const hospitalOpdTimes = {
+            "Sumeru Hospital Dhapakhel": "4:00 PM",
+            "Vayodha Hospital": "5:15 PM",
+            "Norvic International Hospital": "5:30 PM"
+        };
+    
+        const today = new Date();
+        const maxDate = new Date();
+        maxDate.setDate(today.getDate() + 30);
+        dateInput.min = today.toISOString().split('T')[0];
+        dateInput.max = maxDate.toISOString().split('T')[0];
+    
+        // Make date input clickable to open date picker
+        dateInput.addEventListener('click', function () {
+            this.showPicker();
+        });
+    
+        // 🔄 ✅ UPDATED: hospital change now sets OPD time
+        hospitalSelect.addEventListener('change', () => {
+            dateInput.value = '';
+            updateOpdTime(hospitalSelect.value); // ✅ added line to set opdTime
+        });
+    
+        dateInput.addEventListener('change', function () {
+            const selectedHospital = hospitalSelect.value;
+            const selectedDate = new Date(this.value);
+            const dayOfWeek = selectedDate.getDay();
+    
+            if (hospitalDays[selectedHospital]?.includes(dayOfWeek)) {
+            updateOpdTime(selectedHospital);
+            } else {
+            alert('OPD of Dr Shah is not open on the day you selected for your preferred hospital. Please select a different date. OPD day is Sunday to Friday in Sumeru Hospital | Sunday, Tuesday, Thursday in Vayodha Hospital | Wednesday, Friday in Norvic International Hospital');
+            this.value = '';
+            opdTimeInput.value = '';
+            }
+        });
+    
+        function updateOpdTime(hospital) {
+            opdTimeInput.value = hospitalOpdTimes[hospital] || '';
+        }
+    
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            recaptchaError.style.display = 'none';
+    
+            const recaptchaResponse = grecaptcha.getResponse();
+            if (!recaptchaResponse) {
+            recaptchaError.style.display = 'block';
+            return;
+            }
+    
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Submitting...';
+    
+            const formData = new FormData(form);
+            formData.append('g-recaptcha-response', recaptchaResponse);
+    
+            fetch(form.action, {
+            method: 'POST',
+            body: formData
+            })
+            .then((res) => res.text())
+            .then((data) => {
+                if (data.trim() === 'Success') {
+                const formDataObj = Object.fromEntries(formData);
+                showConfirmationMessage(formDataObj);
+                form.reset();
+                grecaptcha.reset();
+                } else throw new Error('Submission failed');
+            })
+            .catch((err) => {
+                alert('An error occurred: ' + err.message);
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Book Appointment';
+            });
+        });
+    
+        function showConfirmationMessage(data) {
+            confirmationMessage.innerHTML = `
+            <div class="confirmation-details">
+                <h3><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Appointment Confirmed!</h3>
+                <p><strong>Name:</strong> ${data.name}</p>
+                <p><strong>Hospital:</strong> ${data.hospital}</p>
+                <p><strong>Date:</strong> ${data.appointmentDate}</p>
+                <p><strong>OPD Time:</strong> ${data.opdTime}</p>
+                <p><strong>Email:</strong> ${data.email}</p>
+                <p><i class="fas fa-info-circle"></i> You'll receive a confirmation email or call shortly.</p>
+            </div>`;
+    
+            modal.style.display = 'block';
+    
+            setTimeout(() => {
+            modal.style.display = 'none';
+            window.location.href = 'https://drsurendrashah.com.np/appointment';
+            }, 10000);
+        }
+    
+        closeBtn.addEventListener('click', () => modal.style.display = 'none');
+        window.addEventListener('click', (e) => {
+            if (e.target == modal) modal.style.display = 'none';
+        });
+        });
+    </script>
+
+    <!-- Google reCAPTCHA script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
