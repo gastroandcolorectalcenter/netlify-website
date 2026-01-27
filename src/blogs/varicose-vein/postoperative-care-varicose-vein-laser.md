@@ -587,7 +587,7 @@ Your health and comfort are our top priorities. Trust the process, follow the in
 
 ### Are You Suffering From Varicose Vein?
 
-#### Laser Treatment (EVLA) is day care and minimal invasive procedure!
+**Laser Treatment (EVLA) is day care and minimal invasive procedure!**
 
 📞 Consult **Dr. Surendra Shah** expert in Laser Treatment.
 
@@ -925,8 +925,9 @@ This article is intended for educational purposes only and does not replace prof
 
 ### भेरिकोज भेनको समस्या छ?
 
-**डा. सुरेन्द्र शाह**\
-लेजर उपचार (EVLA) विशेषज्ञ
+**लेजर उपचार (EVLA) डे केयर र न्यूनतम आक्रामक प्रक्रिया हो!**
+
+**डा. सुरेन्द्र शाह -** लेजर उपचार (EVLA) विशेषज्ञ
 
 <a href="/appointment/" class="blog-post-cta-btn"> 📅 भेटघाट बुक गर्नुहोस् </a> <p style="margin-top: 15px; font-size: 14px;"> छिटो उपचार = राम्रो नतिजा + छिटो रिकभरी </p> </div>
 
