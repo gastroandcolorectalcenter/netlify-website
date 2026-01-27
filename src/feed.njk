@@ -1,0 +1,39 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.name }} - Health Blog</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <updated>{{ collections.blogs[collections.blogs.length - 1].date | htmlDateString }}T00:00:00Z</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+  
+  {% for post in collections.blogs | reverse | limit(20) %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <updated>{{ post.date | htmlDateString }}T00:00:00Z</updated>
+    <id>{{ site.url }}{{ post.url }}</id>
+    <content type="html"><![CDATA[{{ post.templateContent | safe }}]]></content>
+    <summary>{{ post.data.excerpt }}</summary>
+    {% if post.data.category %}
+    <category term="{{ post.data.category }}"/>
+    {% endif %}
+    {% if post.data.tags %}
+      {% for tag in post.data.tags %}
+      <category term="{{ tag }}"/>
+      {% endfor %}
+    {% endif %}
+    <author>
+      <name>{{ post.data.author or site.author.name }}</name>
+    </author>
+  </entry>
+  {% endfor %}
+</feed>
