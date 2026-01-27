@@ -185,7 +185,7 @@ If you or a loved one is experiencing symptoms of rectal prolapse, **do not igno
 
 Early treatment means **better results and faster recovery**.
 
-<a href="/appointment" class="blog-post-cta-btn">📅 Book Confidential Consultation</a>
+<a href="/appointment" class="blog-post-cta-btn">📅 Book Your Appointment</a>
 
 <p style="margin-top: 15px; font-size: 14px;">Compassionate, expert care in a comfortable setting. Early treatment prevents complications.</p>
 
@@ -371,7 +371,7 @@ This article is for educational purposes only and does not replace professional 
 
 समयमै उपचारले जटिलता रोक्छ र छिटो निको हुन्छ।
 
-<a href="/appointment" class="blog-post-cta-btn">📅 गोप्य परामर्श बुक गर्नुहोस्</a>
+<a href="/appointment" class="blog-post-cta-btn">📅 परामर्श बुक गर्नुहोस्</a>
 
 <p style="margin-top: 15px; font-size: 14px;">सहज वातावरणमा अनुभवी र दयालु उपचार।</p>
 
