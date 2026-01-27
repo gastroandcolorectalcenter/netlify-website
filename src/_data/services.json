@@ -1,0 +1,62 @@
+{
+  "serviceCategories": [
+    {
+      "id": "laparoscopic-surgery",
+      "name": "Laparoscopic Surgery",
+      "icon": "minimize",
+      "description": "Minimally invasive procedures with faster recovery and less scarring.",
+      "url": "/services/laparoscopic-surgery/",
+      "featured": true
+    },
+    {
+      "id": "general-surgery",
+      "name": "General Surgery",
+      "icon": "clipboard",
+      "description": "Comprehensive surgical care for various conditions and diseases.",
+      "url": "/services/general-surgery/",
+      "featured": true
+    },
+    {
+      "id": "emergency-surgery",
+      "name": "Emergency Surgery",
+      "icon": "alert-circle",
+      "description": "24/7 emergency surgical services for urgent medical conditions.",
+      "url": "/services/emergency-surgery/",
+      "featured": true
+    },
+    {
+      "id": "consultation",
+      "name": "Surgical Consultation",
+      "icon": "user",
+      "description": "Expert pre-operative consultation and surgical planning.",
+      "url": "/services/consultation/",
+      "featured": false
+    },
+    {
+      "id": "postop-care",
+      "name": "Post-Operative Care",
+      "icon": "check-circle",
+      "description": "Comprehensive follow-up care and recovery management.",
+      "url": "/services/postop-care/",
+      "featured": false
+    },
+    {
+      "id": "preventive-care",
+      "name": "Preventive Care",
+      "icon": "shield-check",
+      "description": "Screening and preventive measures for surgical conditions.",
+      "url": "/services/preventive-care/",
+      "featured": false
+    }
+  ],
+  "flashServices": [
+    {
+      "title": "Same-Day Consultations",
+      "description": "Quick access to expert surgical consultation"
+    },
+    {
+      "title": "Advanced Laparoscopy",
+      "description": "Minimally invasive procedures with faster recovery"
+    }
+  ]
+}
