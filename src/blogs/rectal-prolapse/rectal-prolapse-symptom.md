@@ -564,7 +564,7 @@ While not all cases can be prevented, these strategies can reduce your risk:
 
 Specialized in modern surgical treatment of rectal prolapse with comprehensive care and compassionate approach in Kathmandu & Lalitpur.
 
-<a href="/appointment" class="blog-post-cta-btn">📅 Book Confidential Consultation</a>
+<a href="/appointment" class="blog-post-cta-btn">📅 Book Your Appointment</a>
 
 <p style="margin-top: 15px; font-size: 14px;">Compassionate, expert care in a comfortable setting. Early treatment prevents complications.</p>
 
