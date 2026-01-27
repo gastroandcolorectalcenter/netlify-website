@@ -225,9 +225,22 @@ you can maintain **healthy, regular bowel movements** and prevent many digestive
 
 ---
 
-## Disclaimer
+<div class="blog-post-cta">
 
-This article is for educational purposes only and does not replace professional medical advice. Always consult a qualified healthcare provider for personalized treatment.
+### Concerned About Rectal Prolapse Symptoms?
+
+**Dr. Surendra Shah** - Expert Laparoscopic and Colorectal Surgeon
+
+Specialized in modern surgical treatment of rectal prolapse with comprehensive care and compassionate approach in Kathmandu & Lalitpur.
+
+<a href="/appointment" class="blog-post-cta-btn">📅 Book Your Appointment</a>
+
+<p style="margin-top: 15px; font-size: 14px;">Compassionate, expert care in a comfortable setting. Early treatment prevents complications.</p>
+
+</div>
+
+### Disclaimer
+This article is for general information only. Rectal prolapse requires professional medical evaluation. Please consult with a qualified colorectal surgeon for proper diagnosis and personalized treatment recommendations.
 
 ---
 
@@ -437,6 +450,20 @@ This article is for educational purposes only and does not replace professional 
 
 यस्ता बानीले **स्वस्थ, नियमित दिसा** सुनिश्चित गर्छ र पाचन स्वास्थ्य सुधार्छ।  
 
+<div class="blog-post-cta">
+
+### रेक्टल प्रोल्याप्स लक्षणहरूको बारेमा चिन्तित हुनुहुन्छ?
+
+**डा. सुरेन्द्र शाह** - विशेषज्ञ कोलोरेक्टल शल्यचिकित्सक
+
+काठमाडौं र ललितपुरमा व्यापक हेरचाह र दयालु दृष्टिकोणको साथ रेक्टल प्रोल्याप्सको आधुनिक शल्य चिकित्सा उपचारमा विशेषज्ञ।
+
+<a href="/appointment" class="blog-post-cta-btn">📅 गोपनीय परामर्श बुक गर्नुहोस्</a>
+
+<p style="margin-top: 15px; font-size: 14px;">आरामदायक सेटिङमा दयालु, विशेषज्ञ हेरचाह। प्रारम्भिक उपचारले जटिलताहरू रोक्छ।</p>
+
 </div>
 
-<!-- ================= SCHEMA ================= -->
+**अस्वीकरण:** यो लेख सामान्य जानकारीको लागि मात्र हो। रेक्टल प्रोल्याप्सलाई व्यावसायिक चिकित्सा मूल्याङ्कन आवश्यक छ। उचित निदान र व्यक्तिगत उपचार सिफारिसहरूको लागि कृपया योग्य कोलोरेक्टल शल्यचिकित्सकसँग परामर्श लिनुहोस्।
+
+</div>
