@@ -104,6 +104,43 @@ module.exports = function(eleventyConfig) {
     return encodeURIComponent(value || '');
   });
 
+  // Wrap markdown <img> tags with <picture> using WebP + original fallback
+  eleventyConfig.addFilter("addWebpToImages", (content = "") => {
+    return content.replace(/<img\b([^>]*?)\s+src=(["'])([^"']+)\2([^>]*)>/gi, (match, preAttrs, quote, src, postAttrs) => {
+      const extMatch = src.match(/\.(jpe?g|png)(\?.*)?$/i);
+      if (!extMatch) {
+        return match;
+      }
+      const ext = extMatch[1].toLowerCase();
+      const webpSrc = src.replace(/\.(jpe?g|png)(\?.*)?$/i, ".webp$2");
+      const fallbackType = ext === "png" ? "image/png" : "image/jpeg";
+      const attrs = `${preAttrs || ""} ${postAttrs || ""}`;
+      const srcsetMatch = attrs.match(/\s+srcset=(["'])([^"']+)\1/i);
+      let webpSrcset = "";
+
+      if (srcsetMatch) {
+        const srcsetValue = srcsetMatch[2];
+        const entries = srcsetValue.split(",").map(item => item.trim()).filter(Boolean);
+        const webpEntries = entries.map(entry => {
+          const parts = entry.split(/\s+/);
+          const url = parts[0];
+          const descriptor = parts.slice(1).join(" ");
+          const webpUrl = url.match(/\.(jpe?g|png)(\?.*)?$/i)
+            ? url.replace(/\.(jpe?g|png)(\?.*)?$/i, ".webp$2")
+            : url;
+          return descriptor ? `${webpUrl} ${descriptor}` : webpUrl;
+        });
+        webpSrcset = webpEntries.join(", ");
+      }
+
+      const webpSource = webpSrcset
+        ? `<source srcset="${webpSrcset}" type="image/webp">`
+        : `<source srcset="${webpSrc}" type="image/webp">`;
+
+      return `<picture>${webpSource}<source srcset="${src}" type="${fallbackType}">${match}</picture>`;
+    });
+  });
+
   // ========================================
   // COLLECTIONS - Organize content
   // ========================================
