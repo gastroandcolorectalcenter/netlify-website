@@ -107,9 +107,19 @@ module.exports = function(eleventyConfig) {
   // Wrap markdown <img> tags with <picture> using WebP + original fallback
   eleventyConfig.addFilter("addWebpToImages", (content = "") => {
     return content.replace(/<img\b([^>]*?)\s+src=(["'])([^"']+)\2([^>]*)>/gi, (match, preAttrs, quote, src, postAttrs) => {
+      const ensureDimensions = (imgTag) => {
+        const hasWidth = /\swidth\s*=/i.test(imgTag);
+        const hasHeight = /\sheight\s*=/i.test(imgTag);
+        if (hasWidth && hasHeight) {
+          return imgTag;
+        }
+        const attrsToAdd = `${hasWidth ? "" : ' width="400"'}${hasHeight ? "" : ' height="225"'}`;
+        return imgTag.replace(/\s*\/?>$/, (ending) => `${attrsToAdd}${ending}`);
+      };
+
       const extMatch = src.match(/\.(jpe?g|png)(\?.*)?$/i);
       if (!extMatch) {
-        return match;
+        return ensureDimensions(match);
       }
       const ext = extMatch[1].toLowerCase();
       const webpSrc = src.replace(/\.(jpe?g|png)(\?.*)?$/i, ".webp$2");
@@ -137,7 +147,8 @@ module.exports = function(eleventyConfig) {
         ? `<source srcset="${webpSrcset}" type="image/webp">`
         : `<source srcset="${webpSrc}" type="image/webp">`;
 
-      return `<picture>${webpSource}<source srcset="${src}" type="${fallbackType}">${match}</picture>`;
+      const updatedImg = ensureDimensions(match);
+      return `<picture>${webpSource}<source srcset="${src}" type="${fallbackType}">${updatedImg}</picture>`;
     });
   });
 
@@ -193,6 +204,29 @@ module.exports = function(eleventyConfig) {
   // OPTION 1: Disable anchors for service pages only (RECOMMENDED)
   // Create two markdown libraries - one with anchors, one without
   
+  const slugifyHeading = (value = "") => {
+    const raw = value.toString().trim().toLowerCase();
+    if (!raw) {
+      return "heading";
+    }
+
+    // Keep unicode letters/numbers, convert whitespace to dashes.
+    const slug = raw
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^\p{L}\p{N}\s-]/gu, "")
+      .trim()
+      .replace(/\s+/g, "-");
+
+    if (slug) {
+      return slug;
+    }
+
+    // Fallback for non-Latin headings that collapse to empty.
+    const { createHash } = require("crypto");
+    return `heading-${createHash("md5").update(raw).digest("hex").slice(0, 8)}`;
+  };
+
   // Markdown WITH anchors (for blogs)
   let markdownLibraryWithAnchors = markdownIt({
     html: true,
@@ -207,7 +241,7 @@ module.exports = function(eleventyConfig) {
       ariaHidden: false,
     }),
     level: [1, 2, 3, 4],
-    slugify: eleventyConfig.getFilter("slugify")
+    slugify: slugifyHeading
   });
 
   // Markdown WITHOUT anchors (for services)
@@ -231,6 +265,48 @@ module.exports = function(eleventyConfig) {
       content = content.replace(/<a class="direct-link"[^>]*>#<\/a>/g, '');
     }
     return content;
+  });
+
+  // Collapse extra blank lines in rendered HTML to satisfy H014.
+  eleventyConfig.addTransform("collapseHtmlBlankLines", function(content, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    const preBlocks = [];
+    const placeholder = (index) => `__PRE_BLOCK_${index}__`;
+
+    const withoutPre = content.replace(/<pre[\s\S]*?<\/pre>/gi, (match) => {
+      const index = preBlocks.length;
+      preBlocks.push(match);
+      return placeholder(index);
+    });
+
+    const collapsed = withoutPre.replace(/\n[\t ]*\n(?:[\t ]*\n)+/g, "\n\n");
+
+    return collapsed.replace(/__PRE_BLOCK_(\d+)__/g, (_, index) => preBlocks[Number(index)] || "");
+  });
+
+  // Replace apostrophe entities to avoid H023 (entity references) in HTML output.
+  eleventyConfig.addTransform("decodeApostropheEntities", function(content, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    const preBlocks = [];
+    const placeholder = (index) => `__PRE_BLOCK_${index}__`;
+
+    const withoutPre = content.replace(/<pre[\s\S]*?<\/pre>/gi, (match) => {
+      const index = preBlocks.length;
+      preBlocks.push(match);
+      return placeholder(index);
+    });
+
+    const decoded = withoutPre
+      .replace(/&#39;|&apos;/g, "'")
+      .replace(/&times;/g, "×");
+
+    return decoded.replace(/__PRE_BLOCK_(\d+)__/g, (_, index) => preBlocks[Number(index)] || "");
   });
 
   // ========================================
